@@ -3,3 +3,17 @@
   padding-top: 92px;
   max-width: calc(100% - 48px*2);
 }
+
+@media screen and (max-width: 1023px) {
+  .gallery {
+    padding-top: 88px;
+    max-width: calc(100% - 24px*2);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .gallery {
+    padding-top: 64px;
+    max-width: calc(100% - 16px*2);
+  }
+}

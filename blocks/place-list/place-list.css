@@ -6,3 +6,21 @@
   flex-direction: column;
   gap: 80px;
 }
+
+@media screen and (max-width: 1023px) {
+  .place-list {
+    gap: 73px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place-list {
+    gap: 60px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .place-list {
+    gap: 50px;
+  }
+}

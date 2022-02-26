@@ -6,3 +6,19 @@
   line-height: 1.06;
   text-align: center;
 }
+
+@media screen and (max-width: 767px) {
+  .cover__title {
+    max-width: 380px;
+    font-size: 50px;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .cover__title {
+    max-width: 250px;
+    font-size: 32px;
+    line-height: 1.09;
+  }
+}

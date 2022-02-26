@@ -4,4 +4,21 @@
   max-width: calc(100% - 48px*2);
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer {
+    padding: 88px 0 24px;
+    max-width: calc(100% - 24px*2);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    padding: 64px 0 24px;
+    max-width: calc(100% - 16px*2);
+    flex-direction: column;
+    gap: 48px;
+  }
 }

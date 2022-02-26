@@ -5,3 +5,20 @@
   line-height: 1.2;
   text-align: center;
 }
+
+@media screen and (max-width: 767px) {
+  .lead__subtitle {
+    margin: 20px 0 0;
+    max-width: 350px;
+    font-size: 18px;
+    line-height: 1.25;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .lead__subtitle {
+    margin: 16px 0 0;
+    max-width: 288px;
+    font-size: 16px;
+  }
+}
