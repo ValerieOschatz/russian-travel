@@ -3,14 +3,10 @@
 Сайт-лендинг о путешествиях по России - [Ссылка на сайт](https://valerieoschatz.github.io/russian-travel/)
 
 
-### Стек
+### Технологии
 
 * HTML
 * CSS
-
-
-### Технологии
-
 * Flexbox
 * Grid layout
 * Адаптив, респонсив
